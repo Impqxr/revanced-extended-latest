@@ -5,7 +5,6 @@ patches-source = "inotia00/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 patches-version = "dev"
 cli-version = "dev"
-build-mode = "both"
 
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
@@ -19,6 +18,7 @@ app-name = "Music"
 rv-brand = "ReVanced Extended"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 version = "7.25.53"
+build-mode = "both"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 
 [YouTube-Extended]
@@ -27,4 +27,5 @@ app-name = "YouTube"
 rv-brand = "ReVanced Extended"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 version = "19.44.39"
+build-mode = "both"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
