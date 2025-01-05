@@ -18,6 +18,7 @@ enabled = true
 app-name = "Music"
 rv-brand = "ReVanced Extended"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+version = "7.25.53"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 
 [YouTube-Extended]
@@ -25,4 +26,5 @@ enabled = true
 app-name = "YouTube"
 rv-brand = "ReVanced Extended"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+version = "19.44.39"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
