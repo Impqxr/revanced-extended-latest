@@ -19,7 +19,6 @@ rv-brand = "ReVanced Extended"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 build-mode = "both"
 arch = "arm64-v8a"
-version = "7.24.51" # TODO: Remove it later
 patcher-args = "-e \"Spoof client\""
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 
