@@ -35,7 +35,7 @@ cli-source = "inotia00/revanced-cli"
 
 [X]
 enabled = true
-app-name "X"
+app-name = "X"
 rv-brand = "X"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter/"
 build-mode = "module"
