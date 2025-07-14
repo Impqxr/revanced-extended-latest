@@ -7,7 +7,9 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanc
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)
   
 CLI: inotia00/revanced-cli-5.0.1-all.jar  
-Patches: inotia00/patches-5.7.1-dev.6.rvp  
-[Changelog](https://github.com/inotia00/revanced-patches/releases/tag/v5.7.1-dev.6)
+Patches: inotia00/patches-5.7.1.rvp  
+[Changelog](https://github.com/inotia00/revanced-patches/releases/tag/v5.7.1)
 
-CLI: inotia00/revanced-cli-5.0.1-all.jar    
+CLI: inotia00/revanced-cli-5.0.1-all.jar  
+Patches: inotia00/patches-5.7.1.rvp  
+[Changelog](https://github.com/inotia00/revanced-patches/releases/tag/v5.7.1)  
