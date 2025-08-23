@@ -1,6 +1,6 @@
 {
-  "version": "v19.47.53 (patches 5.9.1)",
-  "versionCode": 48,
-  "zipUrl": "https://github.com/Impqxr/revanced-extended-latest/releases/download/48/youtube-revanced-extended-magisk-v19.47.53-all.zip",
+  "version": "v19.47.53 (patches dev.1)",
+  "versionCode": 49,
+  "zipUrl": "https://github.com/Impqxr/revanced-extended-latest/releases/download/49/youtube-revanced-extended-magisk-v19.47.53-all.zip",
   "changelog": "https://raw.githubusercontent.com/Impqxr/revanced-extended-latest/update/build.md"
 }
