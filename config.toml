@@ -2,8 +2,8 @@ enable-magisk-update = true # set this to false if you do not want to receive up
 parallel-jobs = 1
 patches-source = "inotia00/revanced-patches"
 cli-source = "inotia00/revanced-cli"
-# patches-version = "dev"
-# cli-version = "dev"
+patches-version = "dev"
+cli-version = "dev"
 remove-rv-integrations-checks = false # Patching revanced-integrations failed
 
 # add 'enabled = false' for not patching a specific app or remove it from the config

@@ -221,13 +221,10 @@ get_highest_ver() {
 	local vers m
 	vers=$(tee)
 	m=$(head -1 <<<"$vers")
-	if ! semver_validate "$m"; then echo "$m"; else sort -rV <<<"$vers" | head -1; fi
+	if ! semver_validate "$m"; then echo "$m"; else sed 's/\([0-9]\)\([.-][a-zA-Z]\)/\1~\2/g' <<<"$vers" | sort -rV | sed 's/~//g' | head -1; fi
 }
 semver_validate() {
-	local a="${1%-*}"
-	local a="${a#v}"
-	local ac="${a//[.0-9]/}"
-	[ ${#ac} = 0 ]
+	[[ "$1" =~ ^v?[0-9]+\.[0-9]+ ]]
 }
 get_patch_last_supported_ver() {
 	local list_patches=$1 pkg_name=$2 inc_sel=$3 _exc_sel=$4 _exclusive=$5 # TODO: resolve using all of these
