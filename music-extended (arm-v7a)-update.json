@@ -1,6 +1,6 @@
 {
-  "version": "v8.30.54 (patches dev.9)",
-  "versionCode": 82,
-  "zipUrl": "https://github.com/Impqxr/revanced-extended-latest/releases/download/82/music-revanced-extended-magisk-v8.30.54-arm-v7a.zip",
+  "version": "v8.30.54 (patches 5.14.1)",
+  "versionCode": 83,
+  "zipUrl": "https://github.com/Impqxr/revanced-extended-latest/releases/download/83/music-revanced-extended-magisk-v8.30.54-arm-v7a.zip",
   "changelog": "https://raw.githubusercontent.com/Impqxr/revanced-extended-latest/update/build.md"
 }
